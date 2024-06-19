@@ -15,6 +15,9 @@
 		452BD50A2C1DCFBA00A4591A /* PetWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452BD5092C1DCFBA00A4591A /* PetWatchTests.swift */; };
 		452BD5142C1DCFBA00A4591A /* PetWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452BD5132C1DCFBA00A4591A /* PetWatchUITests.swift */; };
 		452BD5162C1DCFBA00A4591A /* PetWatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452BD5152C1DCFBA00A4591A /* PetWatchUITestsLaunchTests.swift */; };
+		452BD5252C1DD08500A4591A /* NavigationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452BD5242C1DD07D00A4591A /* NavigationContext.swift */; };
+		452BD5272C1DD09D00A4591A /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452BD5262C1DD09B00A4591A /* Pet.swift */; };
+		45DA28482C235085002A5459 /* PetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DA28472C235081002A5459 /* PetListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		452BD50F2C1DCFBA00A4591A /* PetWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		452BD5132C1DCFBA00A4591A /* PetWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetWatchUITests.swift; sourceTree = "<group>"; };
 		452BD5152C1DCFBA00A4591A /* PetWatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetWatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		452BD5242C1DD07D00A4591A /* NavigationContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationContext.swift; sourceTree = "<group>"; };
+		452BD5262C1DD09B00A4591A /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		45DA28472C235081002A5459 /* PetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +103,10 @@
 		452BD4F42C1DCFB900A4591A /* PetWatch */ = {
 			isa = PBXGroup;
 			children = (
-				452BD4F52C1DCFB900A4591A /* PetWatchApp.swift */,
 				452BD4F72C1DCFB900A4591A /* ContentView.swift */,
+				452BD5222C1DD00300A4591A /* Models */,
+				452BD5232C1DD01000A4591A /* Views */,
+				452BD4F52C1DCFB900A4591A /* PetWatchApp.swift */,
 				452BD4F92C1DCFB900A4591A /* Item.swift */,
 				452BD4FB2C1DCFBA00A4591A /* Assets.xcassets */,
 				452BD4FD2C1DCFBA00A4591A /* PetWatch.entitlements */,
@@ -130,6 +138,23 @@
 				452BD5152C1DCFBA00A4591A /* PetWatchUITestsLaunchTests.swift */,
 			);
 			path = PetWatchUITests;
+			sourceTree = "<group>";
+		};
+		452BD5222C1DD00300A4591A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				452BD5262C1DD09B00A4591A /* Pet.swift */,
+				452BD5242C1DD07D00A4591A /* NavigationContext.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		452BD5232C1DD01000A4591A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				45DA28472C235081002A5459 /* PetListView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +287,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				452BD5272C1DD09D00A4591A /* Pet.swift in Sources */,
 				452BD4F82C1DCFB900A4591A /* ContentView.swift in Sources */,
 				452BD4FA2C1DCFB900A4591A /* Item.swift in Sources */,
 				452BD4F62C1DCFB900A4591A /* PetWatchApp.swift in Sources */,
+				45DA28482C235085002A5459 /* PetListView.swift in Sources */,
+				452BD5252C1DD08500A4591A /* NavigationContext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
