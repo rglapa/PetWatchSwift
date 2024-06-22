@@ -15,7 +15,7 @@ final class Pet {
     @Attribute(.unique) var name: String
     var petType: PetType
     var petPhotos: [Data?] = []
-    var petBreed: PetBreed
+    var petBreed: PetBreed?
     
     init () {
         name = ""

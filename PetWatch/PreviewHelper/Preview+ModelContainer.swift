@@ -13,7 +13,6 @@ extension ModelContainer {
         let configuration = ModelConfiguration(isStoredInMemoryOnly: true)
         let container = try ModelContainer(for: schema, configurations: [configuration])
         Task { @MainActor in
-            Pet.insertSampleData(modelContext: container.mainContext)
             PetBreed.insertSampleData(modelContext: container.mainContext)
         }
         return container

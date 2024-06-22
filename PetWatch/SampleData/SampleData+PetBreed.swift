@@ -19,4 +19,13 @@ extension PetBreed {
         modelContext.insert(labrador)
         modelContext.insert(husky)
     }
+    
+    static func reloadSampleData(modelContext: ModelContext) {
+        do {
+            try modelContext.delete(model: PetBreed.self)
+            insertSampleData(modelContext: modelContext)
+        } catch {
+            fatalError(error.localizedDescription)
+        }
+    }
 }
