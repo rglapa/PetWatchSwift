@@ -1,0 +1,21 @@
+//
+//  Preview+ModelContainer.swift
+//  PetWatch
+//
+//  Created by Ruben Glapa on 6/19/24.
+//
+
+import SwiftData
+
+extension ModelContainer {
+    static var sample: () throws -> ModelContainer = {
+        let schema = Schema([PetBreed.self, Pet.self])
+        let configuration = ModelConfiguration(isStoredInMemoryOnly: true)
+        let container = try ModelContainer(for: schema, configurations: [configuration])
+        Task { @MainActor in
+            Pet.insertSampleData(modelContext: container.mainContext)
+            PetBreed.insertSampleData(modelContext: container.mainContext)
+        }
+        return container
+    }
+}

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		451E2D962C24C2BA00BCD54A /* PetNameListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451E2D952C24C2B200BCD54A /* PetNameListView.swift */; };
 		452BD4F62C1DCFB900A4591A /* PetWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452BD4F52C1DCFB900A4591A /* PetWatchApp.swift */; };
 		452BD4F82C1DCFB900A4591A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452BD4F72C1DCFB900A4591A /* ContentView.swift */; };
 		452BD4FA2C1DCFB900A4591A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452BD4F92C1DCFB900A4591A /* Item.swift */; };
@@ -18,6 +19,13 @@
 		452BD5252C1DD08500A4591A /* NavigationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452BD5242C1DD07D00A4591A /* NavigationContext.swift */; };
 		452BD5272C1DD09D00A4591A /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452BD5262C1DD09B00A4591A /* Pet.swift */; };
 		45DA28482C235085002A5459 /* PetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DA28472C235081002A5459 /* PetListView.swift */; };
+		45DA284B2C235784002A5459 /* SampleData+Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DA284A2C23577A002A5459 /* SampleData+Pet.swift */; };
+		45DA284E2C2370DE002A5459 /* Preview+ModelContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DA284D2C2370D5002A5459 /* Preview+ModelContainer.swift */; };
+		45DA28502C2370E9002A5459 /* ModelContainerPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DA284F2C2370E4002A5459 /* ModelContainerPreview.swift */; };
+		45DA28522C237706002A5459 /* PetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DA28512C237702002A5459 /* PetDetailView.swift */; };
+		45DA28542C237920002A5459 /* PetEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DA28532C23791B002A5459 /* PetEditorView.swift */; };
+		45DA28562C238034002A5459 /* PetBreed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DA28552C23802E002A5459 /* PetBreed.swift */; };
+		45DA28582C23814F002A5459 /* SampleData+PetBreed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DA28572C238147002A5459 /* SampleData+PetBreed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		451E2D952C24C2B200BCD54A /* PetNameListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetNameListView.swift; sourceTree = "<group>"; };
 		452BD4F22C1DCFB900A4591A /* PetWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		452BD4F52C1DCFB900A4591A /* PetWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetWatchApp.swift; sourceTree = "<group>"; };
 		452BD4F72C1DCFB900A4591A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +62,13 @@
 		452BD5242C1DD07D00A4591A /* NavigationContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationContext.swift; sourceTree = "<group>"; };
 		452BD5262C1DD09B00A4591A /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
 		45DA28472C235081002A5459 /* PetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListView.swift; sourceTree = "<group>"; };
+		45DA284A2C23577A002A5459 /* SampleData+Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SampleData+Pet.swift"; sourceTree = "<group>"; };
+		45DA284D2C2370D5002A5459 /* Preview+ModelContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Preview+ModelContainer.swift"; sourceTree = "<group>"; };
+		45DA284F2C2370E4002A5459 /* ModelContainerPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelContainerPreview.swift; sourceTree = "<group>"; };
+		45DA28512C237702002A5459 /* PetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDetailView.swift; sourceTree = "<group>"; };
+		45DA28532C23791B002A5459 /* PetEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetEditorView.swift; sourceTree = "<group>"; };
+		45DA28552C23802E002A5459 /* PetBreed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetBreed.swift; sourceTree = "<group>"; };
+		45DA28572C238147002A5459 /* SampleData+PetBreed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SampleData+PetBreed.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +125,8 @@
 				452BD4F52C1DCFB900A4591A /* PetWatchApp.swift */,
 				452BD4F92C1DCFB900A4591A /* Item.swift */,
 				452BD4FB2C1DCFBA00A4591A /* Assets.xcassets */,
+				45DA284C2C2370C7002A5459 /* PreviewHelper */,
+				45DA28492C23575C002A5459 /* SampleData */,
 				452BD4FD2C1DCFBA00A4591A /* PetWatch.entitlements */,
 				452BD4FE2C1DCFBA00A4591A /* Preview Content */,
 			);
@@ -143,6 +161,7 @@
 		452BD5222C1DD00300A4591A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				45DA28552C23802E002A5459 /* PetBreed.swift */,
 				452BD5262C1DD09B00A4591A /* Pet.swift */,
 				452BD5242C1DD07D00A4591A /* NavigationContext.swift */,
 			);
@@ -152,9 +171,30 @@
 		452BD5232C1DD01000A4591A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				451E2D952C24C2B200BCD54A /* PetNameListView.swift */,
+				45DA28532C23791B002A5459 /* PetEditorView.swift */,
+				45DA28512C237702002A5459 /* PetDetailView.swift */,
 				45DA28472C235081002A5459 /* PetListView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		45DA28492C23575C002A5459 /* SampleData */ = {
+			isa = PBXGroup;
+			children = (
+				45DA28572C238147002A5459 /* SampleData+PetBreed.swift */,
+				45DA284A2C23577A002A5459 /* SampleData+Pet.swift */,
+			);
+			path = SampleData;
+			sourceTree = "<group>";
+		};
+		45DA284C2C2370C7002A5459 /* PreviewHelper */ = {
+			isa = PBXGroup;
+			children = (
+				45DA284D2C2370D5002A5459 /* Preview+ModelContainer.swift */,
+				45DA284F2C2370E4002A5459 /* ModelContainerPreview.swift */,
+			);
+			path = PreviewHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,11 +327,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45DA284E2C2370DE002A5459 /* Preview+ModelContainer.swift in Sources */,
+				451E2D962C24C2BA00BCD54A /* PetNameListView.swift in Sources */,
+				45DA28522C237706002A5459 /* PetDetailView.swift in Sources */,
+				45DA284B2C235784002A5459 /* SampleData+Pet.swift in Sources */,
+				45DA28542C237920002A5459 /* PetEditorView.swift in Sources */,
+				45DA28562C238034002A5459 /* PetBreed.swift in Sources */,
 				452BD5272C1DD09D00A4591A /* Pet.swift in Sources */,
 				452BD4F82C1DCFB900A4591A /* ContentView.swift in Sources */,
 				452BD4FA2C1DCFB900A4591A /* Item.swift in Sources */,
 				452BD4F62C1DCFB900A4591A /* PetWatchApp.swift in Sources */,
+				45DA28582C23814F002A5459 /* SampleData+PetBreed.swift in Sources */,
 				45DA28482C235085002A5459 /* PetListView.swift in Sources */,
+				45DA28502C2370E9002A5459 /* ModelContainerPreview.swift in Sources */,
 				452BD5252C1DD08500A4591A /* NavigationContext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
