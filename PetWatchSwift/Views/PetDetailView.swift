@@ -54,6 +54,7 @@ private struct PetDetailContentView: View {
     let rows = [GridItem(.fixed(100)), GridItem(.fixed(100)),GridItem(.fixed(100))]
     @State private var photoSelection: [PhotosPickerItem] = []
     @State private var photoData: [Data] = []
+    @State private var isPresented = false
     //@State private var selection: Data
     var body: some View {
         VStack {
@@ -87,26 +88,52 @@ private struct PetDetailContentView: View {
                             }
                         }
                     }
-                    LazyVGrid(columns: rows) {
-                        
-                        ForEach(pet.petPhotos, id: \.self) { photo in
+                    if !pet.petPhotos.isEmpty {
+                        LazyVGrid(columns: rows) {
+                            ForEach(pet.petPhotos, id: \.self) { photo in
                                 Image(uiImage: UIImage(data: photo ?? Data()) ?? UIImage())
                                     .resizable()
                                     .symbolRenderingMode(.multicolor)
-                                    .frame(width: 30, height: 30)
-                                    
+                                    .frame(width: 100, height: 100)
+                                    .onTapGesture {
+                                        isPresented = true
+                                    }
+                                    .fullScreenCover(isPresented: $isPresented, content: {
+                                        SingleImageViewerView(image: Image(uiImage: UIImage(data: photo ?? Data()) ?? UIImage()))
+                                            .overlay(alignment:.topTrailing) {
+                                                closeButton
+                                            }
+                                    })
+                            }
+                        }
+                        HStack {
+                            Spacer()
+                            Button("Remove Images", action: {
+                                pet.petPhotos = []
+                                photoSelection = []
+                            })
+                            .buttonStyle(.bordered)
+                            .padding()
+                            .tint(.purple)
+                            Spacer()
                         }
                     }
-                    if !pet.petPhotos.isEmpty {
-                        Button("Remove Images", action: {
-                            pet.petPhotos = []
-                        })
-                    }
-                    
                 }
-                
             }
         }
+    }
+    
+    private var closeButton: some View {
+        Button {
+            isPresented = false
+        } label: {
+            Image(systemName: "xmark")
+                .font(.headline)
+        }
+        .buttonStyle(.bordered)
+        .clipShape(Circle())
+        .tint(.purple)
+        .padding()
     }
 }
 

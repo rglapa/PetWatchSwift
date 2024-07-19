@@ -32,6 +32,7 @@
 		45BC649E2C3F42CD00348673 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC649D2C3F42C500348673 /* GridView.swift */; };
 		45BC64A02C3F42F200348673 /* GridItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC649F2C3F42EF00348673 /* GridItem.swift */; };
 		45BC64A22C3F43F100348673 /* GridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC64A12C3F43EE00348673 /* GridItemView.swift */; };
+		45DA8B422C4AFA05002A2DD1 /* SingleImageViewerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DA8B412C4AF9FC002A2DD1 /* SingleImageViewerView.swift */; };
 		45EDB8FD2C41CEC7002F5EA6 /* heartSpring.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45EDB8F32C41CEC7002F5EA6 /* heartSpring.jpg */; };
 		45EDB8FE2C41CEC7002F5EA6 /* bobcat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45EDB8E72C41CEC7002F5EA6 /* bobcat.jpg */; };
 		45EDB8FF2C41CEC7002F5EA6 /* redTailedHawk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45EDB8F72C41CEC7002F5EA6 /* redTailedHawk.jpg */; };
@@ -108,6 +109,7 @@
 		45BC649D2C3F42C500348673 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		45BC649F2C3F42EF00348673 /* GridItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridItem.swift; sourceTree = "<group>"; };
 		45BC64A12C3F43EE00348673 /* GridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridItemView.swift; sourceTree = "<group>"; };
+		45DA8B412C4AF9FC002A2DD1 /* SingleImageViewerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleImageViewerView.swift; sourceTree = "<group>"; };
 		45EDB8E72C41CEC7002F5EA6 /* bobcat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bobcat.jpg; sourceTree = "<group>"; };
 		45EDB8E82C41CEC7002F5EA6 /* bullElk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bullElk.jpg; sourceTree = "<group>"; };
 		45EDB8E92C41CEC7002F5EA6 /* bullElkSparring.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bullElkSparring.jpg; sourceTree = "<group>"; };
@@ -249,6 +251,7 @@
 				45F94EE92C386CA300023D5C /* ContentView.swift */,
 				45F94EED2C388E3300023D5C /* ColumnContentView.swift */,
 				45F94EF32C39BAE100023D5C /* PetDetailView.swift */,
+				45DA8B412C4AF9FC002A2DD1 /* SingleImageViewerView.swift */,
 				45A6E9C72C44539A00B70884 /* ImageDetailView.swift */,
 				45F94EEF2C388EEB00023D5C /* PetBreedListView.swift */,
 				4565492A2C39D2B2005B1C53 /* PetBreedEditor.swift */,
@@ -487,6 +490,7 @@
 				45BA52042C3F527900F3172C /* DetailView.swift in Sources */,
 				45BC64A02C3F42F200348673 /* GridItem.swift in Sources */,
 				45F94EF22C39AE6300023D5C /* PetListView.swift in Sources */,
+				45DA8B422C4AFA05002A2DD1 /* SingleImageViewerView.swift in Sources */,
 				45BA52062C3F550200F3172C /* PhotoPicker.swift in Sources */,
 				45BA52002C3F4C6A00F3172C /* FileManagerExtensions.swift in Sources */,
 				45BC649E2C3F42CD00348673 /* GridView.swift in Sources */,
