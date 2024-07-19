@@ -7,14 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		453B097C2C37607E00D8E6D9 /* PetWatchSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453B097B2C37607E00D8E6D9 /* PetWatchSwiftApp.swift */; };
-		453B097E2C37607E00D8E6D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453B097D2C37607E00D8E6D9 /* ContentView.swift */; };
-		453B09802C37607E00D8E6D9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453B097F2C37607E00D8E6D9 /* Item.swift */; };
 		453B09822C37608000D8E6D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 453B09812C37608000D8E6D9 /* Assets.xcassets */; };
 		453B09852C37608000D8E6D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 453B09842C37608000D8E6D9 /* Preview Assets.xcassets */; };
 		453B098F2C37608000D8E6D9 /* PetWatchSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453B098E2C37608000D8E6D9 /* PetWatchSwiftTests.swift */; };
 		453B09992C37608000D8E6D9 /* PetWatchSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453B09982C37608000D8E6D9 /* PetWatchSwiftUITests.swift */; };
 		453B099B2C37608000D8E6D9 /* PetWatchSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453B099A2C37608000D8E6D9 /* PetWatchSwiftUITestsLaunchTests.swift */; };
+		453B09C32C385FC200D8E6D9 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453B09C22C385FC000D8E6D9 /* Pet.swift */; };
+		453B09C52C38609600D8E6D9 /* PetBreed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453B09C42C38609300D8E6D9 /* PetBreed.swift */; };
+		453B09C82C38613C00D8E6D9 /* Preview+ModelContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453B09C72C38612E00D8E6D9 /* Preview+ModelContainer.swift */; };
+		453B09CA2C38614700D8E6D9 /* ModelContainerPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453B09C92C38613E00D8E6D9 /* ModelContainerPreview.swift */; };
+		453B09CC2C38640100D8E6D9 /* NavigationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453B09CB2C3863FD00D8E6D9 /* NavigationContext.swift */; };
+		453B09CF2C3864C500D8E6D9 /* PetEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453B09CE2C3864BD00D8E6D9 /* PetEditor.swift */; };
+		453B09D22C3864FE00D8E6D9 /* SampleData+PetBreed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453B09D12C3864EF00D8E6D9 /* SampleData+PetBreed.swift */; };
+		453B09D42C38650600D8E6D9 /* SampleData+Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453B09D32C38650200D8E6D9 /* SampleData+Pet.swift */; };
+		4565492B2C39D2B7005B1C53 /* PetBreedEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4565492A2C39D2B2005B1C53 /* PetBreedEditor.swift */; };
+		4565492D2C3B2B55005B1C53 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4565492C2C3B2B51005B1C53 /* MapView.swift */; };
+		45A6E9C82C44539F00B70884 /* ImageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A6E9C72C44539A00B70884 /* ImageDetailView.swift */; };
+		45BA51FE2C3F462800F3172C /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BA51FD2C3F462300F3172C /* DataModel.swift */; };
+		45BA52002C3F4C6A00F3172C /* FileManagerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BA51FF2C3F4C6300F3172C /* FileManagerExtensions.swift */; };
+		45BA52022C3F50CC00F3172C /* ColumnStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BA52012C3F50C700F3172C /* ColumnStepper.swift */; };
+		45BA52042C3F527900F3172C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BA52032C3F527600F3172C /* DetailView.swift */; };
+		45BA52062C3F550200F3172C /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BA52052C3F54FF00F3172C /* PhotoPicker.swift */; };
+		45BA52092C406B4700F3172C /* ImageGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BA52082C406B4300F3172C /* ImageGallery.swift */; };
+		45BC649E2C3F42CD00348673 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC649D2C3F42C500348673 /* GridView.swift */; };
+		45BC64A02C3F42F200348673 /* GridItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC649F2C3F42EF00348673 /* GridItem.swift */; };
+		45BC64A22C3F43F100348673 /* GridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC64A12C3F43EE00348673 /* GridItemView.swift */; };
+		45EDB8FD2C41CEC7002F5EA6 /* heartSpring.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45EDB8F32C41CEC7002F5EA6 /* heartSpring.jpg */; };
+		45EDB8FE2C41CEC7002F5EA6 /* bobcat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45EDB8E72C41CEC7002F5EA6 /* bobcat.jpg */; };
+		45EDB8FF2C41CEC7002F5EA6 /* redTailedHawk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45EDB8F72C41CEC7002F5EA6 /* redTailedHawk.jpg */; };
+		45EDB9002C41CEC7002F5EA6 /* coyoteAndBison.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45EDB8EB2C41CEC7002F5EA6 /* coyoteAndBison.jpg */; };
+		45EDB9012C41CEC7002F5EA6 /* grizzly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45EDB8EE2C41CEC7002F5EA6 /* grizzly.jpg */; };
+		45EDB9022C41CEC7002F5EA6 /* soaringTheRainbow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45EDB8F92C41CEC7002F5EA6 /* soaringTheRainbow.jpg */; };
+		45EDB9032C41CEC7002F5EA6 /* bullElkSparring.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45EDB8E92C41CEC7002F5EA6 /* bullElkSparring.jpg */; };
+		45EDB9042C41CEC7002F5EA6 /* doubleRainbowYellowstone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45EDB8ED2C41CEC7002F5EA6 /* doubleRainbowYellowstone.jpg */; };
+		45EDB9052C41CEC7002F5EA6 /* towerCreekBASIN.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45EDB8FB2C41CEC7002F5EA6 /* towerCreekBASIN.jpg */; };
+		45EDB9062C41CEC7002F5EA6 /* grizzlyCubs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45EDB8EF2C41CEC7002F5EA6 /* grizzlyCubs.jpg */; };
+		45EDB9072C41CEC7002F5EA6 /* owlsAtMammoth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45EDB8F52C41CEC7002F5EA6 /* owlsAtMammoth.jpg */; };
+		45EDB9082C41CEC7002F5EA6 /* sunriseAtGrottoGeyser.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45EDB8FA2C41CEC7002F5EA6 /* sunriseAtGrottoGeyser.jpg */; };
+		45EDB9092C41CEC7002F5EA6 /* bullTuleElkAndTwoFemales.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45EDB8EA2C41CEC7002F5EA6 /* bullTuleElkAndTwoFemales.jpg */; };
+		45EDB90A2C41CEC7002F5EA6 /* groundSquirrel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45EDB8F02C41CEC7002F5EA6 /* groundSquirrel.jpg */; };
+		45EDB90B2C41CEC7002F5EA6 /* bullElk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45EDB8E82C41CEC7002F5EA6 /* bullElk.jpg */; };
+		45EDB90C2C41CEC7002F5EA6 /* yellowBelliedMarmot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45EDB8FC2C41CEC7002F5EA6 /* yellowBelliedMarmot.jpg */; };
+		45EDB90D2C41CEC7002F5EA6 /* riverOtter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45EDB8F82C41CEC7002F5EA6 /* riverOtter.jpg */; };
+		45EDB90E2C41CEC7002F5EA6 /* newGrowthOfAntlers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45EDB8F42C41CEC7002F5EA6 /* newGrowthOfAntlers.jpg */; };
+		45EDB90F2C41CEC7002F5EA6 /* harborSeal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45EDB8F12C41CEC7002F5EA6 /* harborSeal.jpg */; };
+		45EDB9102C41CEC7002F5EA6 /* doubleRainbowLowerMammoth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45EDB8EC2C41CEC7002F5EA6 /* doubleRainbowLowerMammoth.jpg */; };
+		45EDB9112C41CEC7002F5EA6 /* rainbowAndBadlands.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45EDB8F62C41CEC7002F5EA6 /* rainbowAndBadlands.jpg */; };
+		45EDB9122C41CEC7002F5EA6 /* harborSealPup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45EDB8F22C41CEC7002F5EA6 /* harborSealPup.jpg */; };
+		45F94EEA2C386CA700023D5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F94EE92C386CA300023D5C /* ContentView.swift */; };
+		45F94EEC2C386D8100023D5C /* PetWatchSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F94EEB2C386D7900023D5C /* PetWatchSwiftApp.swift */; };
+		45F94EEE2C388E3F00023D5C /* ColumnContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F94EED2C388E3300023D5C /* ColumnContentView.swift */; };
+		45F94EF02C388EF200023D5C /* PetBreedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F94EEF2C388EEB00023D5C /* PetBreedListView.swift */; };
+		45F94EF22C39AE6300023D5C /* PetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F94EF12C39AE6000023D5C /* PetListView.swift */; };
+		45F94EF42C39BAE500023D5C /* PetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F94EF32C39BAE100023D5C /* PetDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +81,6 @@
 
 /* Begin PBXFileReference section */
 		453B09782C37607E00D8E6D9 /* PetWatchSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetWatchSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		453B097B2C37607E00D8E6D9 /* PetWatchSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetWatchSwiftApp.swift; sourceTree = "<group>"; };
-		453B097D2C37607E00D8E6D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		453B097F2C37607E00D8E6D9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		453B09812C37608000D8E6D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		453B09842C37608000D8E6D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		453B098A2C37608000D8E6D9 /* PetWatchSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetWatchSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +88,54 @@
 		453B09942C37608000D8E6D9 /* PetWatchSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetWatchSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		453B09982C37608000D8E6D9 /* PetWatchSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetWatchSwiftUITests.swift; sourceTree = "<group>"; };
 		453B099A2C37608000D8E6D9 /* PetWatchSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetWatchSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		453B09C22C385FC000D8E6D9 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		453B09C42C38609300D8E6D9 /* PetBreed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetBreed.swift; sourceTree = "<group>"; };
+		453B09C72C38612E00D8E6D9 /* Preview+ModelContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Preview+ModelContainer.swift"; sourceTree = "<group>"; };
+		453B09C92C38613E00D8E6D9 /* ModelContainerPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelContainerPreview.swift; sourceTree = "<group>"; };
+		453B09CB2C3863FD00D8E6D9 /* NavigationContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationContext.swift; sourceTree = "<group>"; };
+		453B09CE2C3864BD00D8E6D9 /* PetEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetEditor.swift; sourceTree = "<group>"; };
+		453B09D12C3864EF00D8E6D9 /* SampleData+PetBreed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SampleData+PetBreed.swift"; sourceTree = "<group>"; };
+		453B09D32C38650200D8E6D9 /* SampleData+Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SampleData+Pet.swift"; sourceTree = "<group>"; };
+		4565492A2C39D2B2005B1C53 /* PetBreedEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetBreedEditor.swift; sourceTree = "<group>"; };
+		4565492C2C3B2B51005B1C53 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		45A6E9C72C44539A00B70884 /* ImageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailView.swift; sourceTree = "<group>"; };
+		45BA51FD2C3F462300F3172C /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		45BA51FF2C3F4C6300F3172C /* FileManagerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerExtensions.swift; sourceTree = "<group>"; };
+		45BA52012C3F50C700F3172C /* ColumnStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnStepper.swift; sourceTree = "<group>"; };
+		45BA52032C3F527600F3172C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		45BA52052C3F54FF00F3172C /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
+		45BA52082C406B4300F3172C /* ImageGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGallery.swift; sourceTree = "<group>"; };
+		45BC649D2C3F42C500348673 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		45BC649F2C3F42EF00348673 /* GridItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridItem.swift; sourceTree = "<group>"; };
+		45BC64A12C3F43EE00348673 /* GridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridItemView.swift; sourceTree = "<group>"; };
+		45EDB8E72C41CEC7002F5EA6 /* bobcat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bobcat.jpg; sourceTree = "<group>"; };
+		45EDB8E82C41CEC7002F5EA6 /* bullElk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bullElk.jpg; sourceTree = "<group>"; };
+		45EDB8E92C41CEC7002F5EA6 /* bullElkSparring.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bullElkSparring.jpg; sourceTree = "<group>"; };
+		45EDB8EA2C41CEC7002F5EA6 /* bullTuleElkAndTwoFemales.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bullTuleElkAndTwoFemales.jpg; sourceTree = "<group>"; };
+		45EDB8EB2C41CEC7002F5EA6 /* coyoteAndBison.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coyoteAndBison.jpg; sourceTree = "<group>"; };
+		45EDB8EC2C41CEC7002F5EA6 /* doubleRainbowLowerMammoth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doubleRainbowLowerMammoth.jpg; sourceTree = "<group>"; };
+		45EDB8ED2C41CEC7002F5EA6 /* doubleRainbowYellowstone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doubleRainbowYellowstone.jpg; sourceTree = "<group>"; };
+		45EDB8EE2C41CEC7002F5EA6 /* grizzly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grizzly.jpg; sourceTree = "<group>"; };
+		45EDB8EF2C41CEC7002F5EA6 /* grizzlyCubs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grizzlyCubs.jpg; sourceTree = "<group>"; };
+		45EDB8F02C41CEC7002F5EA6 /* groundSquirrel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = groundSquirrel.jpg; sourceTree = "<group>"; };
+		45EDB8F12C41CEC7002F5EA6 /* harborSeal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = harborSeal.jpg; sourceTree = "<group>"; };
+		45EDB8F22C41CEC7002F5EA6 /* harborSealPup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = harborSealPup.jpg; sourceTree = "<group>"; };
+		45EDB8F32C41CEC7002F5EA6 /* heartSpring.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = heartSpring.jpg; sourceTree = "<group>"; };
+		45EDB8F42C41CEC7002F5EA6 /* newGrowthOfAntlers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newGrowthOfAntlers.jpg; sourceTree = "<group>"; };
+		45EDB8F52C41CEC7002F5EA6 /* owlsAtMammoth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = owlsAtMammoth.jpg; sourceTree = "<group>"; };
+		45EDB8F62C41CEC7002F5EA6 /* rainbowAndBadlands.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowAndBadlands.jpg; sourceTree = "<group>"; };
+		45EDB8F72C41CEC7002F5EA6 /* redTailedHawk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = redTailedHawk.jpg; sourceTree = "<group>"; };
+		45EDB8F82C41CEC7002F5EA6 /* riverOtter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = riverOtter.jpg; sourceTree = "<group>"; };
+		45EDB8F92C41CEC7002F5EA6 /* soaringTheRainbow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = soaringTheRainbow.jpg; sourceTree = "<group>"; };
+		45EDB8FA2C41CEC7002F5EA6 /* sunriseAtGrottoGeyser.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sunriseAtGrottoGeyser.jpg; sourceTree = "<group>"; };
+		45EDB8FB2C41CEC7002F5EA6 /* towerCreekBASIN.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = towerCreekBASIN.jpg; sourceTree = "<group>"; };
+		45EDB8FC2C41CEC7002F5EA6 /* yellowBelliedMarmot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yellowBelliedMarmot.jpg; sourceTree = "<group>"; };
+		45F94EE92C386CA300023D5C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		45F94EEB2C386D7900023D5C /* PetWatchSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetWatchSwiftApp.swift; sourceTree = "<group>"; };
+		45F94EED2C388E3300023D5C /* ColumnContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnContentView.swift; sourceTree = "<group>"; };
+		45F94EEF2C388EEB00023D5C /* PetBreedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetBreedListView.swift; sourceTree = "<group>"; };
+		45F94EF12C39AE6000023D5C /* PetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListView.swift; sourceTree = "<group>"; };
+		45F94EF32C39BAE100023D5C /* PetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +186,13 @@
 		453B097A2C37607E00D8E6D9 /* PetWatchSwift */ = {
 			isa = PBXGroup;
 			children = (
-				453B097B2C37607E00D8E6D9 /* PetWatchSwiftApp.swift */,
-				453B097D2C37607E00D8E6D9 /* ContentView.swift */,
-				453B097F2C37607E00D8E6D9 /* Item.swift */,
+				45F94EEB2C386D7900023D5C /* PetWatchSwiftApp.swift */,
+				453B09D02C3864E400D8E6D9 /* SampleData */,
+				453B09C12C385FA000D8E6D9 /* Models */,
+				453B09CD2C38649D00D8E6D9 /* Views */,
+				45BC649C2C3F42AC00348673 /* Grid View */,
+				453B09C62C38612700D8E6D9 /* PreviewHelper */,
+				45BA52072C406ACF00F3172C /* Resources */,
 				453B09812C37608000D8E6D9 /* Assets.xcassets */,
 				453B09832C37608000D8E6D9 /* Preview Content */,
 			);
@@ -128,6 +222,95 @@
 				453B099A2C37608000D8E6D9 /* PetWatchSwiftUITestsLaunchTests.swift */,
 			);
 			path = PetWatchSwiftUITests;
+			sourceTree = "<group>";
+		};
+		453B09C12C385FA000D8E6D9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				453B09CB2C3863FD00D8E6D9 /* NavigationContext.swift */,
+				453B09C42C38609300D8E6D9 /* PetBreed.swift */,
+				453B09C22C385FC000D8E6D9 /* Pet.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		453B09C62C38612700D8E6D9 /* PreviewHelper */ = {
+			isa = PBXGroup;
+			children = (
+				453B09C72C38612E00D8E6D9 /* Preview+ModelContainer.swift */,
+				453B09C92C38613E00D8E6D9 /* ModelContainerPreview.swift */,
+			);
+			path = PreviewHelper;
+			sourceTree = "<group>";
+		};
+		453B09CD2C38649D00D8E6D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				45F94EE92C386CA300023D5C /* ContentView.swift */,
+				45F94EED2C388E3300023D5C /* ColumnContentView.swift */,
+				45F94EF32C39BAE100023D5C /* PetDetailView.swift */,
+				45A6E9C72C44539A00B70884 /* ImageDetailView.swift */,
+				45F94EEF2C388EEB00023D5C /* PetBreedListView.swift */,
+				4565492A2C39D2B2005B1C53 /* PetBreedEditor.swift */,
+				453B09CE2C3864BD00D8E6D9 /* PetEditor.swift */,
+				45F94EF12C39AE6000023D5C /* PetListView.swift */,
+				4565492C2C3B2B51005B1C53 /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		453B09D02C3864E400D8E6D9 /* SampleData */ = {
+			isa = PBXGroup;
+			children = (
+				453B09D12C3864EF00D8E6D9 /* SampleData+PetBreed.swift */,
+				453B09D32C38650200D8E6D9 /* SampleData+Pet.swift */,
+			);
+			path = SampleData;
+			sourceTree = "<group>";
+		};
+		45BA52072C406ACF00F3172C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				45EDB8E72C41CEC7002F5EA6 /* bobcat.jpg */,
+				45EDB8E82C41CEC7002F5EA6 /* bullElk.jpg */,
+				45EDB8E92C41CEC7002F5EA6 /* bullElkSparring.jpg */,
+				45EDB8EA2C41CEC7002F5EA6 /* bullTuleElkAndTwoFemales.jpg */,
+				45EDB8EB2C41CEC7002F5EA6 /* coyoteAndBison.jpg */,
+				45EDB8EC2C41CEC7002F5EA6 /* doubleRainbowLowerMammoth.jpg */,
+				45EDB8ED2C41CEC7002F5EA6 /* doubleRainbowYellowstone.jpg */,
+				45EDB8EE2C41CEC7002F5EA6 /* grizzly.jpg */,
+				45EDB8EF2C41CEC7002F5EA6 /* grizzlyCubs.jpg */,
+				45EDB8F02C41CEC7002F5EA6 /* groundSquirrel.jpg */,
+				45EDB8F12C41CEC7002F5EA6 /* harborSeal.jpg */,
+				45EDB8F22C41CEC7002F5EA6 /* harborSealPup.jpg */,
+				45EDB8F32C41CEC7002F5EA6 /* heartSpring.jpg */,
+				45EDB8F42C41CEC7002F5EA6 /* newGrowthOfAntlers.jpg */,
+				45EDB8F52C41CEC7002F5EA6 /* owlsAtMammoth.jpg */,
+				45EDB8F62C41CEC7002F5EA6 /* rainbowAndBadlands.jpg */,
+				45EDB8F72C41CEC7002F5EA6 /* redTailedHawk.jpg */,
+				45EDB8F82C41CEC7002F5EA6 /* riverOtter.jpg */,
+				45EDB8F92C41CEC7002F5EA6 /* soaringTheRainbow.jpg */,
+				45EDB8FA2C41CEC7002F5EA6 /* sunriseAtGrottoGeyser.jpg */,
+				45EDB8FB2C41CEC7002F5EA6 /* towerCreekBASIN.jpg */,
+				45EDB8FC2C41CEC7002F5EA6 /* yellowBelliedMarmot.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		45BC649C2C3F42AC00348673 /* Grid View */ = {
+			isa = PBXGroup;
+			children = (
+				45BA52082C406B4300F3172C /* ImageGallery.swift */,
+				45BA51FF2C3F4C6300F3172C /* FileManagerExtensions.swift */,
+				45BA51FD2C3F462300F3172C /* DataModel.swift */,
+				45BC64A12C3F43EE00348673 /* GridItemView.swift */,
+				45BC649F2C3F42EF00348673 /* GridItem.swift */,
+				45BC649D2C3F42C500348673 /* GridView.swift */,
+				45BA52052C3F54FF00F3172C /* PhotoPicker.swift */,
+				45BA52032C3F527600F3172C /* DetailView.swift */,
+				45BA52012C3F50C700F3172C /* ColumnStepper.swift */,
+			);
+			path = "Grid View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +419,28 @@
 			files = (
 				453B09852C37608000D8E6D9 /* Preview Assets.xcassets in Resources */,
 				453B09822C37608000D8E6D9 /* Assets.xcassets in Resources */,
+				45EDB8FD2C41CEC7002F5EA6 /* heartSpring.jpg in Resources */,
+				45EDB8FE2C41CEC7002F5EA6 /* bobcat.jpg in Resources */,
+				45EDB8FF2C41CEC7002F5EA6 /* redTailedHawk.jpg in Resources */,
+				45EDB9002C41CEC7002F5EA6 /* coyoteAndBison.jpg in Resources */,
+				45EDB9012C41CEC7002F5EA6 /* grizzly.jpg in Resources */,
+				45EDB9022C41CEC7002F5EA6 /* soaringTheRainbow.jpg in Resources */,
+				45EDB9032C41CEC7002F5EA6 /* bullElkSparring.jpg in Resources */,
+				45EDB9042C41CEC7002F5EA6 /* doubleRainbowYellowstone.jpg in Resources */,
+				45EDB9052C41CEC7002F5EA6 /* towerCreekBASIN.jpg in Resources */,
+				45EDB9062C41CEC7002F5EA6 /* grizzlyCubs.jpg in Resources */,
+				45EDB9072C41CEC7002F5EA6 /* owlsAtMammoth.jpg in Resources */,
+				45EDB9082C41CEC7002F5EA6 /* sunriseAtGrottoGeyser.jpg in Resources */,
+				45EDB9092C41CEC7002F5EA6 /* bullTuleElkAndTwoFemales.jpg in Resources */,
+				45EDB90A2C41CEC7002F5EA6 /* groundSquirrel.jpg in Resources */,
+				45EDB90B2C41CEC7002F5EA6 /* bullElk.jpg in Resources */,
+				45EDB90C2C41CEC7002F5EA6 /* yellowBelliedMarmot.jpg in Resources */,
+				45EDB90D2C41CEC7002F5EA6 /* riverOtter.jpg in Resources */,
+				45EDB90E2C41CEC7002F5EA6 /* newGrowthOfAntlers.jpg in Resources */,
+				45EDB90F2C41CEC7002F5EA6 /* harborSeal.jpg in Resources */,
+				45EDB9102C41CEC7002F5EA6 /* doubleRainbowLowerMammoth.jpg in Resources */,
+				45EDB9112C41CEC7002F5EA6 /* rainbowAndBadlands.jpg in Resources */,
+				45EDB9122C41CEC7002F5EA6 /* harborSealPup.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,9 +465,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				453B097E2C37607E00D8E6D9 /* ContentView.swift in Sources */,
-				453B09802C37607E00D8E6D9 /* Item.swift in Sources */,
-				453B097C2C37607E00D8E6D9 /* PetWatchSwiftApp.swift in Sources */,
+				453B09D42C38650600D8E6D9 /* SampleData+Pet.swift in Sources */,
+				4565492B2C39D2B7005B1C53 /* PetBreedEditor.swift in Sources */,
+				453B09C82C38613C00D8E6D9 /* Preview+ModelContainer.swift in Sources */,
+				45A6E9C82C44539F00B70884 /* ImageDetailView.swift in Sources */,
+				45BA52022C3F50CC00F3172C /* ColumnStepper.swift in Sources */,
+				45F94EEE2C388E3F00023D5C /* ColumnContentView.swift in Sources */,
+				45F94EEC2C386D8100023D5C /* PetWatchSwiftApp.swift in Sources */,
+				45BA52092C406B4700F3172C /* ImageGallery.swift in Sources */,
+				453B09C52C38609600D8E6D9 /* PetBreed.swift in Sources */,
+				45F94EF42C39BAE500023D5C /* PetDetailView.swift in Sources */,
+				45F94EF02C388EF200023D5C /* PetBreedListView.swift in Sources */,
+				45BC64A22C3F43F100348673 /* GridItemView.swift in Sources */,
+				4565492D2C3B2B55005B1C53 /* MapView.swift in Sources */,
+				453B09CA2C38614700D8E6D9 /* ModelContainerPreview.swift in Sources */,
+				453B09C32C385FC200D8E6D9 /* Pet.swift in Sources */,
+				45F94EEA2C386CA700023D5C /* ContentView.swift in Sources */,
+				45BA51FE2C3F462800F3172C /* DataModel.swift in Sources */,
+				453B09CC2C38640100D8E6D9 /* NavigationContext.swift in Sources */,
+				453B09D22C3864FE00D8E6D9 /* SampleData+PetBreed.swift in Sources */,
+				45BA52042C3F527900F3172C /* DetailView.swift in Sources */,
+				45BC64A02C3F42F200348673 /* GridItem.swift in Sources */,
+				45F94EF22C39AE6300023D5C /* PetListView.swift in Sources */,
+				45BA52062C3F550200F3172C /* PhotoPicker.swift in Sources */,
+				45BA52002C3F4C6A00F3172C /* FileManagerExtensions.swift in Sources */,
+				45BC649E2C3F42CD00348673 /* GridView.swift in Sources */,
+				453B09CF2C3864C500D8E6D9 /* PetEditor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +662,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,6 +692,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
