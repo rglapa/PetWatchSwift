@@ -8,6 +8,6 @@
 import Foundation
 
 extension Pet {
-    static let artemis = Pet(name: "Artemis", diet: .carnivorous, petPhotos: [])
-    static let hugo = Pet(name: "Hugo", diet: .carnivorous, petPhotos: [])
+    static let artemis = Pet(name: "Artemis", diet: .carnivorous, petPhotos: [], petImage: "")
+    static let hugo = Pet(name: "Hugo", diet: .carnivorous, petPhotos: [], petImage: "")
 }

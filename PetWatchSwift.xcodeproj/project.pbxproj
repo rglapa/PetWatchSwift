@@ -20,6 +20,7 @@
 		453B09CF2C3864C500D8E6D9 /* PetEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453B09CE2C3864BD00D8E6D9 /* PetEditor.swift */; };
 		453B09D22C3864FE00D8E6D9 /* SampleData+PetBreed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453B09D12C3864EF00D8E6D9 /* SampleData+PetBreed.swift */; };
 		453B09D42C38650600D8E6D9 /* SampleData+Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453B09D32C38650200D8E6D9 /* SampleData+Pet.swift */; };
+		45400FAA2E355EE10056CDD4 /* PetAsyncWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45400FA92E355EC20056CDD4 /* PetAsyncWithImage.swift */; };
 		4565492B2C39D2B7005B1C53 /* PetBreedEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4565492A2C39D2B2005B1C53 /* PetBreedEditor.swift */; };
 		4565492D2C3B2B55005B1C53 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4565492C2C3B2B51005B1C53 /* MapView.swift */; };
 		45A6E9C82C44539F00B70884 /* ImageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A6E9C72C44539A00B70884 /* ImageDetailView.swift */; };
@@ -97,6 +98,7 @@
 		453B09CE2C3864BD00D8E6D9 /* PetEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetEditor.swift; sourceTree = "<group>"; };
 		453B09D12C3864EF00D8E6D9 /* SampleData+PetBreed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SampleData+PetBreed.swift"; sourceTree = "<group>"; };
 		453B09D32C38650200D8E6D9 /* SampleData+Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SampleData+Pet.swift"; sourceTree = "<group>"; };
+		45400FA92E355EC20056CDD4 /* PetAsyncWithImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetAsyncWithImage.swift; sourceTree = "<group>"; };
 		4565492A2C39D2B2005B1C53 /* PetBreedEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetBreedEditor.swift; sourceTree = "<group>"; };
 		4565492C2C3B2B51005B1C53 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		45A6E9C72C44539A00B70884 /* ImageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailView.swift; sourceTree = "<group>"; };
@@ -248,6 +250,7 @@
 		453B09CD2C38649D00D8E6D9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				45400FA92E355EC20056CDD4 /* PetAsyncWithImage.swift */,
 				45F94EE92C386CA300023D5C /* ContentView.swift */,
 				45F94EED2C388E3300023D5C /* ColumnContentView.swift */,
 				45F94EF32C39BAE100023D5C /* PetDetailView.swift */,
@@ -380,7 +383,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
-				LastUpgradeCheck = 1600;
+				LastUpgradeCheck = 2600;
 				TargetAttributes = {
 					453B09772C37607E00D8E6D9 = {
 						CreatedOnToolsVersion = 16.0;
@@ -484,6 +487,7 @@
 				453B09CA2C38614700D8E6D9 /* ModelContainerPreview.swift in Sources */,
 				453B09C32C385FC200D8E6D9 /* Pet.swift in Sources */,
 				45F94EEA2C386CA700023D5C /* ContentView.swift in Sources */,
+				45400FAA2E355EE10056CDD4 /* PetAsyncWithImage.swift in Sources */,
 				45BA51FE2C3F462800F3172C /* DataModel.swift in Sources */,
 				453B09CC2C38640100D8E6D9 /* NavigationContext.swift in Sources */,
 				453B09D22C3864FE00D8E6D9 /* SampleData+PetBreed.swift in Sources */,
@@ -566,6 +570,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2AAR9JFLKQ;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -589,6 +594,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -629,6 +635,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2AAR9JFLKQ;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -645,6 +652,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -658,7 +666,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PetWatchSwift/Preview Content\"";
-				DEVELOPMENT_TEAM = 2AAR9JFLKQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -688,7 +695,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PetWatchSwift/Preview Content\"";
-				DEVELOPMENT_TEAM = 2AAR9JFLKQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -716,7 +722,6 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2AAR9JFLKQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 1.0;
@@ -735,7 +740,6 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2AAR9JFLKQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 1.0;
@@ -753,7 +757,6 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2AAR9JFLKQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.mycompany.PetWatchSwiftUITests;
@@ -770,7 +773,6 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2AAR9JFLKQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.mycompany.PetWatchSwiftUITests;

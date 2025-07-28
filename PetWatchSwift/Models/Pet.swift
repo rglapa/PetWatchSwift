@@ -15,17 +15,20 @@ final class Pet {
     var diet: Diet
     var breed: PetBreed?
     var petPhotos: [Data?] = []
+    var petImage: String = ""
     
     
     init() {
         name = ""
         diet = .carnivorous
+        petImage = ""
     }
     
-    init(name: String,diet: Diet, petPhotos: [Data?]) {
+    init(name: String,diet: Diet, petPhotos: [Data?], petImage: String) {
         self.name = name
         self.diet = diet
         self.petPhotos = petPhotos
+        self.petImage = petImage
     }
 }
 
@@ -36,3 +39,5 @@ extension Pet {
         case herbivorous = "Herbivorous"
     }
 }
+
+

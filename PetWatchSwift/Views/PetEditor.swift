@@ -106,7 +106,7 @@ struct PetEditor: View {
             pet.breed = selectedBreed
             pet.petPhotos = selectedPhotoData
         } else {
-            let newPet = Pet(name:name,diet:selectedType,petPhotos: [])
+            let newPet = Pet(name:name,diet:selectedType,petPhotos: [], petImage: "")
             newPet.breed = selectedBreed
             modelContext.insert(newPet)
             
